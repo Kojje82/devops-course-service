@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo "Here we will unit test our service! :)"
+                sh "mvn test"
             }
         }
         stage('Deploy') {
