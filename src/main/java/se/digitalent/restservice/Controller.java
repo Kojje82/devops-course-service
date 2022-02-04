@@ -10,4 +10,9 @@ public class Controller {
 	public Greeting ping(){
 		return new Greeting("ping", "pong");
 	}
+
+	@GetMapping("/hellojenkins")
+	public Greeting hellojenkins(){
+		return new Greeting("hello", "jenkins");
+	}
 }
