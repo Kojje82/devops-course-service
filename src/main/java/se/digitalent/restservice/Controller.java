@@ -14,5 +14,6 @@ public class Controller {
 	@GetMapping("/hellojenkins")
 	public Greeting hellojenkins(){
 		return new Greeting("hello JJ..", "jenkins");
+
 	}
 }
